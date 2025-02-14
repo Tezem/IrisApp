@@ -21,7 +21,7 @@ st.markdown(
     """
     <style>
     .top-banner {
-        background-color: #ff5733; /* Couleur de la bande (modifiable) */
+        background-color: 'blue'; /* Couleur de la bande (modifiable) */
         height: 50px; /* Hauteur de la bande */
         width: 100%;
         position: fixed;
