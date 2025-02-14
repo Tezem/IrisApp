@@ -16,32 +16,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-#Definition de la banière en haut de la page
-st.markdown(
-    """
-    <style>
-    .top-banner {
-        background-color: 'blue'; /* Couleur de la bande (modifiable) */
-        height: 50px; /* Hauteur de la bande */
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    </style>
-
-    <div class="top-banner">🚀 Bienvenue sur mon application Streamlit ! 🎉</div>
-    """,
-    unsafe_allow_html=True
-)
-
 #Ajouter un élément à la page d'accueil
 #st.write("Hello world !")
 
