@@ -1,6 +1,6 @@
 import streamlit as st
 #from sklearn.model_selection import train_test_split
-st.sidebar('about')
+st.sidebar()
 st.title("TP 1 IA ENS")
 st.header("Partie 1")
 
