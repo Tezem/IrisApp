@@ -11,7 +11,7 @@ st.write("Hello world !")
 # Ici je vais inserer les menus interactifs dans ma barre de menu
 menu = st.sidebar.radio(
     "Sélectionnez une page:", 
-    ["Accueil", "Description des données", "Visualisation des données", "Interogation des données"]
+    ["Accueil", "Description des données", "Visualisation des données", "Interogation des données", "Contacts"]
 )
 
 # Affichage du contenu selon le choix
