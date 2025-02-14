@@ -3,5 +3,5 @@ import streamlit as st
 
 st.write("Hello world !")
 # Séparer les caractéristiques et la cible
-X = df.drop('species', axis=1)
-y = df['species']
+#X = df.drop('species', axis=1)
+#y = df['species']
