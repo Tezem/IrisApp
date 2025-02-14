@@ -1,7 +1,8 @@
 import streamlit as st
 #from sklearn.model_selection import train_test_split
 st.sidebar.title("Menu")
-#st.sidebar.geader(
+st.sidebar.header("Analyse des données")
+st.sidebar.text("selectionner un des menus suivants pour continuer")
 st.title("TP 1 IA ENS")
 st.header("Partie 1")
 
