@@ -30,3 +30,9 @@ elif menu == "Visualisation des données":
 elif menu == "Interogation des données":
     st.subheader("Bienvenue dans la page d'Interrogation des données")
     st.write("Je vous offre ici la possibilité d'interroger des données à votre convenancer")
+
+if menu == "Contacts":
+    st.subheader("Contactez-nous:")
+    st.write("Téléphone: +237 697 848 562")
+    st.write("WhatsApp : +237 697 848 562")
+    st.write("Email    : tezemfrederic@gmail.com")
