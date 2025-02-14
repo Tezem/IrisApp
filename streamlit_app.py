@@ -2,11 +2,19 @@ import streamlit as st
 #from sklearn.model_selection import train_test_split
 st.sidebar.title("Menu")
 st.sidebar.header("Analyse des données")
-st.sidebar.text("selectionner un des menus suivants pour continuer")
+#st.sidebar.text("selectionner un des menus suivants pour continuer")
 st.title("TP 1 IA ENS")
 st.header("Partie 1")
+st.markdown(
+    """
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+        🌟 Bienvenue sur notre application Streamlit ! 🚀
+    </marquee>
+    """,
+    unsafe_allow_html=True
+)
 #Ajouter un élément à la page d'accueil
-st.write("Hello world !")
+#st.write("Hello world !")
 
 # Ici je vais inserer les menus interactifs dans ma barre de menu
 menu = st.sidebar.radio(
