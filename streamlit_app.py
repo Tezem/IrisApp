@@ -11,7 +11,7 @@ st.header("Partie 1")
 st.markdown(
     """
     <marquee behavior="scroll" direction="left" scrollamount="5">
-        🌟 Bienvenue sur notre application Streamlit ! 🚀
+         Bienvenue sur notre application de traitement de données ! 
     </marquee>
     """,
     "KDnuggets is**_really_cool**",
