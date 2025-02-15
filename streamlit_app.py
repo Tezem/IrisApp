@@ -1,4 +1,5 @@
 import streamlit as st
+
 #from sklearn.model_selection import train_test_split
 st.sidebar.title("Menu")
 st.sidebar.header("Analyse des données")
@@ -13,6 +14,7 @@ st.markdown(
         🌟 Bienvenue sur notre application Streamlit ! 🚀
     </marquee>
     """,
+    "KDnuggets is**_really_cool**",
     unsafe_allow_html=True
 )
 
