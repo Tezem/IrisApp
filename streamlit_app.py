@@ -49,7 +49,7 @@ elif menu == "Interogation des données":
                        max_value=20, 
                        value=50, 
                        step=5
-                      )
+    )
     st.write(f"Valeur sélectionnée : {valeur}")
 
 if menu == "Contacts":
