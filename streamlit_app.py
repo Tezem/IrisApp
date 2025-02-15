@@ -14,7 +14,6 @@ st.markdown(
           Bienvenue sur notre application de traitement de données !  
     </marquee>
     """,
-    "KDnuggets is**_really_cool**",
     unsafe_allow_html=True
 )
 
