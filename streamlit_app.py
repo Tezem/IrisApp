@@ -43,7 +43,7 @@ elif menu == "Interogation des données":
     st.subheader("Bienvenue dans la page d'Interrogation des données")
     st.write("Je vous offre ici la possibilité d'interroger des données à votre convenancer")
     st.write("Selectionne la longueur de sepal")
-    longueurSepal = st.sidebar.slider(
+    longueurSepal = st.slider(
         "Choisissez une valeur :", 
         min_value=0, 
         max_value=20,                
