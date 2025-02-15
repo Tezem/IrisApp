@@ -11,7 +11,7 @@ st.header("Partie 1")
 st.markdown(
     """
     <marquee behavior="scroll" direction="left" scrollamount="5">
-         Bienvenue sur notre application de traitement de données ! 
+         🌟 Bienvenue sur notre application de traitement de données ! 🚀 
     </marquee>
     """,
     "KDnuggets is**_really_cool**",
@@ -44,13 +44,14 @@ elif menu == "Interogation des données":
     st.subheader("Bienvenue dans la page d'Interrogation des données")
     st.write("Je vous offre ici la possibilité d'interroger des données à votre convenancer")
     st.write("Selectionne la longueur de sepal")
-    valeur = st.slider("Choisissez une valeur :", 
-                       min_value=0, 
-                       max_value=20, 
-                       value=50, 
-                       step=5
+    longueurSepal = st.slider(
+        "Choisissez une valeur :", 
+        min_value=0, 
+        max_value=20,                
+        value=50, 
+        step=5
     )
-    st.write(f"Valeur sélectionnée : {valeur}")
+    st.write(f"La longueur du sepal sélectionnée : {longueurSepal}")
 
 if menu == "Contacts":
     st.subheader("Contactez-nous:")
